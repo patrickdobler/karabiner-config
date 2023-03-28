@@ -1,6 +1,8 @@
 Karabiner-Elements Configuration for MacOS
 ==========================================
-
+<p align="center" width="100%">
+    <img width="25%" src="https://user-images.githubusercontent.com/16536946/228294228-9cebc0ed-517c-49f9-9577-0ae707949d75.png">
+</p>
 This repository contains a custom configuration file for Karabiner-Elements, a powerful keyboard customization tool for MacOS. This configuration provides PC-style keyboard shortcuts and keybindings for various functions on a MacOS system.
 
 Installation
