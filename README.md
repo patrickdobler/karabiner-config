@@ -54,10 +54,10 @@ The following are the keybindings provided by this configuration:
 *   PC-Style New Tab (`Control+T` to `Command+T`)
 *   PC-Style Bold (`Control+B` to `Command+B`)
 *   PC-Style Italic (`Control+I` to `Command+I`)
-*   PC Style Open url location - only in browsers (`Control+L` to `Command+L`)
-*   PC Style reopen closed tab - only in browsers (`Control+Shift+T` to `Command+Shift+T`)
-*   PC Style new private window - only in browsers (`Control+Shift+P/N` to `Command+Shift+P/N`)
-*   PC Style Lock Computer (`Command+L` -> `Control+Command+Q`)
+*   PC Style Open URL location - only in browsers (`Control+L` to `Command+L`)
+*   PC Style Reopen Closed Tab - only in browsers (`Control+Shift+T` to `Command+Shift+T`)
+*   PC Style New Private Window - only in browsers (`Control+Shift+P/N` to `Command+Shift+P/N`)
+*   PC Style Lock Computer (`Command+L` to `Control+Command+Q`)
 
 ### Miscellaneous
 
