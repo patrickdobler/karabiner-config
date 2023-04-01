@@ -67,11 +67,11 @@ The following are the keybindings provided by this configuration:
 *   Open Launchpad with `Control+Esc`
 *   Open Activity Monitor with `Control+Shift+Esc`
 *   Open iTerm2 with `Scroll Lock`
-*   Open Finder with `Command+E`
 *   Press `CAPS LOCK` twice to activate, otherwise held down and use as HYPER (`Control+Command+Shift+Option`)
 *   Avoid starting sysdiagnose with the built-in macOS shortcut `Control+Command+Shift+Option+,`
 *   Avoid starting sysdiagnose with the built-in macOS shortcut `Control+Command+Shift+Option+.`
 *   Enter is the same as Return (`Keypad Enter` to `Return`)
+*   Remap closing an application (`Hyper+Shift+Space Enter` to `Command+Q`)
 
 ### Swiss Keyboard `AltGr` + special characters
 
@@ -83,6 +83,24 @@ The following are the keybindings provided by this configuration:
 *   Swiss PC-Style `Option+[<]` to `\`
 *   Swiss PC-Style `Option+[']` to `´`
 *   Swiss PC-Style `Option+[^]` to `~`
+
+### Yabai Window Tiling Manager
+
+*   Move window to `keypad_n` space and focus window again
+*   Workaround for AltTab + Select with Mouse (`Alt+Space` to `fn`)
+
+### Finder
+
+*   Use `F2` as Rename and set onedit
+*   Use `Backspace` as Go to Previous Folder in Finder if not onedit
+*   Use `Return` as Open if not renaming file
+*   Use `Return` to finish renaming when onedit=1
+*   Use `Esc` to finish renaming when onedit=1
+*   Use `Delete` as Move to Trash
+*   Move one folder back in Finder with `Mouse Button 4`
+*   Move one folder forward in Finder with `Mouse Button 5`
+*   Change `Control+Mouse Button 1` to `Command+Mouse Button 1`
+
 
 
 Additional Configuration
