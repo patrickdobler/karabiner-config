@@ -567,7 +567,7 @@
                 "control"
               ],
               "optional": [
-                "any"
+                "shift"
               ]
             }
           },
@@ -630,7 +630,7 @@
                 "control"
               ],
               "optional": [
-                "any"
+                "shift"
               ]
             }
           },
@@ -693,7 +693,7 @@
                 "control"
               ],
               "optional": [
-                "any"
+                "shift"
               ]
             }
           },
@@ -756,7 +756,7 @@
                 "control"
               ],
               "optional": [
-                "any"
+                "shift"
               ]
             }
           },
@@ -822,9 +822,6 @@
             "modifiers": {
               "mandatory": [
                 "control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -945,9 +942,6 @@
             "modifiers": {
               "mandatory": [
                 "control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -1013,9 +1007,6 @@
             "modifiers": {
               "mandatory": [
                 "control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -1081,9 +1072,6 @@
             "modifiers": {
               "mandatory": [
                 "control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -1150,9 +1138,6 @@
             "modifiers": {
               "mandatory": [
                 "control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -1218,9 +1203,6 @@
             "modifiers": {
               "mandatory": [
                 "control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -1324,9 +1306,6 @@
             "modifiers": {
               "mandatory": [
                 "option"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -1360,9 +1339,6 @@
             "modifiers": {
               "mandatory": [
                 "option"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -1472,9 +1448,6 @@
             "modifiers": {
               "mandatory": [
                 "control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -1738,9 +1711,6 @@
             "modifiers": {
               "mandatory": [
                 "control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -1801,9 +1771,6 @@
             "modifiers": {
               "mandatory": [
                 "control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -1869,9 +1836,6 @@
             "modifiers": {
               "mandatory": [
                 "control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -2295,9 +2259,6 @@
             "modifiers": {
               "mandatory": [
                 "control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -2337,9 +2298,6 @@
               "mandatory": [
                 "control",
                 "shift"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -2375,9 +2333,6 @@
               "mandatory": [
                 "control",
                 "shift"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -2411,9 +2366,6 @@
               "mandatory": [
                 "control",
                 "shift"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -2439,9 +2391,6 @@
             "modifiers": {
               "mandatory": [
                 "command"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -2789,68 +2738,6 @@
       ]
     },
     {
-      "description": "Open Finder with Command+E",
-      "manipulators": [
-        {
-          "conditions": [
-            {
-              "bundle_identifiers": [
-                "^com\\.microsoft\\.rdc$",
-                "^com\\.microsoft\\.rdc\\.mac$",
-                "^com\\.microsoft\\.rdc\\.macos$",
-                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                "^net\\.sf\\.cord$",
-                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                "^com\\.itap-mobile\\.qmote$",
-                "^com\\.nulana\\.remotixmac$",
-                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                "^com\\.teamviewer\\.TeamViewer$",
-                "^com\\.philandro\\.anydesk$",
-                "^com\\.vmware\\.horizon$",
-                "^com\\.2X\\.Client\\.Mac$",
-                "^com\\.vmware\\.fusion$",
-                "^com\\.vmware\\.horizon$",
-                "^com\\.vmware\\.view$",
-                "^com\\.parallels\\.desktop$",
-                "^com\\.parallels\\.vm$",
-                "^com\\.parallels\\.desktop\\.console$",
-                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.citrix\\.XenAppViewer$",
-                "^com\\.vmware\\.proxyApp\\.",
-                "^com\\.parallels\\.winapp\\.",
-                "^org\\.macports\\.X11$",
-                "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$",
-                "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$",
-                "^io\\.alacritty$",
-                "^net\\.kovidgoyal\\.kitty$",
-                "^tv\\.parsec\\.www$",
-                "^com\\.utmapp\\.UTM$",
-                "^com\\.devolutions\\.remotedesktopmanager"
-              ],
-              "type": "frontmost_application_unless"
-            }
-          ],
-          "from": {
-            "key_code": "e",
-            "modifiers": {
-              "mandatory": [
-                "command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Finder.app'"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
       "description": "Press CAPS LOCK twice to activate, otherwise held down and use as HYPER (Control+Command+Shift+Option)",
       "manipulators": [
         {
@@ -2896,7 +2783,7 @@
           ],
           "to_if_held_down": [
             {
-              "key_code": "left_shift",
+              "key_code": "right_shift",
               "modifiers": [
                 "left_command",
                 "left_control",
@@ -3546,6 +3433,589 @@
                 "^tv\\.parsec\\.www$",
                 "^com\\.utmapp\\.UTM$",
                 "^com\\.devolutions\\.remotedesktopmanager"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Yabai: Move window to 'keypad_n' space and focus window again",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "keypad_1",
+            "modifiers": {
+              "mandatory": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "1",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "1",
+              "modifiers": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "tab",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_2",
+            "modifiers": {
+              "mandatory": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "2",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "2",
+              "modifiers": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "tab",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_3",
+            "modifiers": {
+              "mandatory": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "3",
+              "modifiers": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "tab",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_4",
+            "modifiers": {
+              "mandatory": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "4",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "4",
+              "modifiers": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "tab",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_5",
+            "modifiers": {
+              "mandatory": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "5",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "5",
+              "modifiers": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "tab",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_6",
+            "modifiers": {
+              "mandatory": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "6",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "6",
+              "modifiers": [
+                "right_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            },
+            {
+              "key_code": "tab",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Yabai: Workaround for AltTab + Select with Mouse (Alt+Space to fn)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "fn",
+              "modifiers": []
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Finder: Use F2 as Rename and set onedit",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f2"
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter"
+            },
+            {
+              "set_variable": {
+                "name": "onedit",
+                "value": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com.apple.finder"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Finder: Use Backspace as Go to Previous Folder in Finder if not onedit",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com.apple.finder"
+              ],
+              "type": "frontmost_application_if"
+            },
+            {
+              "name": "onedit",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "delete_or_backspace"
+          },
+          "to": [
+            {
+              "key_code": "semicolon",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Finder: Use Return as Open if not renaming file",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com.apple.finder"
+              ],
+              "type": "frontmost_application_if"
+            },
+            {
+              "type": "variable_unless",
+              "name": "onedit",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "return_or_enter",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "o",
+              "modifiers": [
+                "right_command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Finder: Use Return to finish renaming when onedit=1",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com.apple.finder"
+              ],
+              "type": "frontmost_application_if"
+            },
+            {
+              "name": "onedit",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "return_or_enter",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter"
+            },
+            {
+              "set_variable": {
+                "name": "onedit",
+                "value": 0
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Finder: Use Esc to finish renaming when onedit=1",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com.apple.finder"
+              ],
+              "type": "frontmost_application_if"
+            },
+            {
+              "name": "onedit",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "escape",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            },
+            {
+              "set_variable": {
+                "name": "onedit",
+                "value": 0
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Finder: Use Delete as Move to Trash",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "delete_forward",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com.apple.finder"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Finder: Move one folder back in Finder with Mouse Button 4",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button4"
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.apple\\.finder$"
+              ]
+            }
+          ],
+          "to": [
+            {
+              "key_code": "semicolon",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Finder: Move one folder forward in Finder with Mouse Button 5",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button5"
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.apple\\.finder$"
+              ]
+            }
+          ],
+          "to": [
+            {
+              "key_code": "quote",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Finder: Change Control-Click to Command-Click",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button1",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com.apple.finder"
+              ]
+            }
+          ],
+          "to": [
+            {
+              "pointing_button": "button1",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "parameters": {
+            "basic.to_if_alone_timeout_milliseconds": 1000
+          }
+        }
+      ]
+    },
+    {
+      "description": "Hyper+Shift+Space closes application",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_command",
+                "left_control",
+                "left_option",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "q",
+              "modifiers": [
+                "left_command"
               ]
             }
           ]
