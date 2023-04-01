@@ -104,6 +104,8 @@ Credits
 - https://ke-complex-modifications.pqrs.org/#caps_lock_twice
 - https://ke-complex-modifications.pqrs.org/#personal_bavelee_20200321
 - https://ke-complex-modifications.pqrs.org/#swiss_pc_shortcuts
+- https://ke-complex-modifications.pqrs.org/#finder_improved_navigation
+- https://ke-complex-modifications.pqrs.org/#finder
 
 License
 -------

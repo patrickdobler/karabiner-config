@@ -1,0 +1,425 @@
+{
+    "title": "Hyper+Shift Application Launcher",
+    "rules": [
+      {
+        "description": "Hyper+Shift+Key launches specific application",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "1",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Microsoft OneNote.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "2",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Mail.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "3",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Microsoft Excel.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "4",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Microsoft Word.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "5",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Finder.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "a",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open 'https://www.amplenote.com/notes/jots?tag=daily-jots'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "b",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Bitwarden.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "c",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Calendar.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "d",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Parallels Desktop.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "e",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Visual Studio Code.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "f",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Firefox.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "g",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'ChatGPT.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "q",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Reminder.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "r",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Remote Desktop Manager Free.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "s",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'System Settings.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "t",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'TradingView.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "w",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Whatsapp.app'"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "x",
+              "modifiers": {
+                "mandatory": [
+                  "left_shift",
+                  "left_command",
+                  "left_control",
+                  "left_option",
+                  "right_shift"
+                ],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "open -a 'Safari.app'"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
