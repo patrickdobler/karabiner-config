@@ -13,11 +13,10 @@ Installation
 3.  Open Karabiner-Elements and go to the "Misc" tab.
 4.  Click "Open Karabiner-Elements Configuration Directory" to navigate to your Karabiner-Elements configuration folder.
 5.  Create a new folder called "complex\_modifications" if it doesn't already exist.
-6.  Move the `personal_shortcuts.json` file to the "complex\_modifications" folder.
+6.  Move the `personal_shortcuts.json` and `hypershift_launcher.json` file to the "complex\_modifications" folder.
 7.  Open Karabiner-Elements and go to the "Complex Modifications" tab.
-8.  Click on the "Add rule" button and select the `personal_shortcuts.json` rule from the list of rules.
-9.  Enable the rule by checking the box next to it.
-10.  Reload Karabiner-Elements to apply the new configuration.
+8.  Click on the "Add rule" button and klick on `Enable All` for `Hyper+Shift Application Launcher` and `Personal PC-Style Shortcuts`
+9.  Reload Karabiner-Elements to apply the new configuration.
 
 Now you should be able to use the new keybindings on your Mac. If you need to modify or add new keybindings, you can edit the `personal_shortcuts.json` file and reload Karabiner-Elements to apply the changes.
 
