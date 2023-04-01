@@ -90,7 +90,7 @@ Additional Configuration
 ------------------------
 ![image](https://user-images.githubusercontent.com/16536946/228283187-c14c442f-3eb1-41cb-918a-138dca1185c0.png)
 
-![image](https://user-images.githubusercontent.com/16536946/228283707-81a7c22c-6077-4f1d-a6f6-430cd475d119.png)
+![image](https://user-images.githubusercontent.com/16536946/229280683-6e6a8343-bdaa-4cb9-a8f3-5dd0370e61c0.png)
 
 
 Contributing
