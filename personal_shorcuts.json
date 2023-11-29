@@ -44,6 +44,15 @@
                 "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "from": {
@@ -104,6 +113,15 @@
                 "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "type": "basic",
@@ -162,6 +180,15 @@
                 "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "type": "basic",
@@ -228,6 +255,15 @@
                 "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "type": "basic",
@@ -294,6 +330,15 @@
                 "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "type": "basic",
@@ -361,6 +406,15 @@
                 "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "type": "basic",
@@ -428,6 +482,15 @@
                 "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "type": "basic",
@@ -493,6 +556,15 @@
                 "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "type": "basic",
@@ -1261,6 +1333,15 @@
                 "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "from": {
@@ -1296,9 +1377,19 @@
                 "^com\\.google\\.Chrome$",
                 "^com\\.brave\\.Browser$",
                 "^com\\.apple\\.Safari$",
-                "^company\\.thebrowser\\.Browser"
+                "^company\\.thebrowser\\.Browser",
+                "^com\\.kagi\\.kagimacOS$"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "from": {
@@ -1329,9 +1420,19 @@
                 "^com\\.google\\.Chrome$",
                 "^com\\.brave\\.Browser$",
                 "^com\\.apple\\.Safari$",
-                "^company\\.thebrowser\\.Browser"
+                "^company\\.thebrowser\\.Browser",
+                "^com\\.kagi\\.kagimacOS$"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "from": {
@@ -1367,9 +1468,19 @@
                 "^com\\.google\\.Chrome$",
                 "^com\\.brave\\.Browser$",
                 "^com\\.apple\\.Safari$",
-                "^company\\.thebrowser\\.Browser"
+                "^company\\.thebrowser\\.Browser",
+                "^com\\.kagi\\.kagimacOS$"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "from": {
@@ -1401,10 +1512,18 @@
                 "^org\\.mozilla\\.nightly$",
                 "^com\\.microsoft\\.Edge",
                 "^com\\.google\\.Chrome$",
-                "^com\\.brave\\.Browser$",
-                "^com\\.apple\\.Safari$"
+                "^com\\.brave\\.Browser$"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "from": {
@@ -1438,7 +1557,8 @@
                 "^com\\.google\\.Chrome$",
                 "^com\\.brave\\.Browser$",
                 "^com\\.apple\\.Safari$",
-                "^company\\.thebrowser\\.Browser"
+                "^company\\.thebrowser\\.Browser",
+                "^com\\.kagi\\.kagimacOS$"
               ],
               "type": "frontmost_application_if"
             }
@@ -1471,9 +1591,19 @@
                 "^com\\.google\\.Chrome$",
                 "^com\\.brave\\.Browser$",
                 "^com\\.apple\\.Safari$",
-                "^company\\.thebrowser\\.Browser"
+                "^company\\.thebrowser\\.Browser",
+                "^com\\.kagi\\.kagimacOS$"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "from": {
@@ -1501,9 +1631,20 @@
           "conditions": [
             {
               "bundle_identifiers": [
-                "^company\\.thebrowser\\.Browser"
+                "^company\\.thebrowser\\.Browser",
+                "^com\\.apple\\.Safari$",
+                "^com\\.kagi\\.kagimacOS$"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "from": {
@@ -2515,7 +2656,8 @@
                 "^com\\.google\\.Chrome$",
                 "^com\\.brave\\.Browser$",
                 "^com\\.apple\\.Safari$",
-                "^company\\.thebrowser\\.Browser"
+                "^company\\.thebrowser\\.Browser",
+                "^com\\.kagi\\.kagimacOS$"
               ],
               "type": "frontmost_application_if"
             }
@@ -2553,7 +2695,8 @@
                 "^com\\.google\\.Chrome$",
                 "^com\\.brave\\.Browser$",
                 "^com\\.apple\\.Safari$",
-                "^company\\.thebrowser\\.Browser"
+                "^company\\.thebrowser\\.Browser",
+                "^com\\.kagi\\.kagimacOS$"
               ],
               "type": "frontmost_application_if"
             }
@@ -2621,7 +2764,8 @@
                 "^com\\.google\\.Chrome$",
                 "^com\\.brave\\.Browser$",
                 "^com\\.apple\\.Safari$",
-                "^company\\.thebrowser\\.Browser"
+                "^company\\.thebrowser\\.Browser",
+                "^com\\.kagi\\.kagimacOS$"
               ],
               "type": "frontmost_application_if"
             }
@@ -2652,6 +2796,17 @@
       "description": "PC Style Lock Computer (Command+L to Control+Command+Q)",
       "manipulators": [
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ],
           "from": {
             "key_code": "l",
             "modifiers": {
@@ -2742,77 +2897,28 @@
       ]
     },
     {
-      "description": "Raycast and replace Spotlight Search (Control+Space / Pause)",
+      "description": "Open Raycast with Pause",
       "manipulators": [
         {
           "conditions": [
             {
-              "bundle_identifiers": [
-                "^com\\.microsoft\\.rdc$",
-                "^com\\.microsoft\\.rdc\\.mac$",
-                "^com\\.microsoft\\.rdc\\.macos$",
-                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                "^net\\.sf\\.cord$",
-                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                "^com\\.itap-mobile\\.qmote$",
-                "^com\\.nulana\\.remotixmac$",
-                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                "^com\\.teamviewer\\.TeamViewer$",
-                "^com\\.philandro\\.anydesk$",
-                "^com\\.vmware\\.horizon$",
-                "^com\\.2X\\.Client\\.Mac$",
-                "^com\\.vmware\\.fusion$",
-                "^com\\.vmware\\.horizon$",
-                "^com\\.vmware\\.view$",
-                "^com\\.parallels\\.desktop$",
-                "^com\\.parallels\\.vm$",
-                "^com\\.parallels\\.desktop\\.console$",
-                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.citrix\\.XenAppViewer$",
-                "^com\\.vmware\\.proxyApp\\.",
-                "^com\\.parallels\\.winapp\\.",
-                "^org\\.macports\\.X11$",
-                "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$",
-                "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$",
-                "^io\\.alacritty$",
-                "^net\\.kovidgoyal\\.kitty$",
-                "^tv\\.parsec\\.www$",
-                "^com\\.utmapp\\.UTM$",
-                "^com\\.devolutions\\.remotedesktopmanager"
-              ],
-              "type": "frontmost_application_unless"
-            }
-          ],
-          "from": {
-            "key_code": "spacebar",
-            "modifiers": {
-              "mandatory": [
-                "control"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "grave_accent_and_tilde",
-              "modifiers": [
-                "left_option"
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
               ]
             }
           ],
-          "type": "basic"
-        },
-        {
           "from": {
             "key_code": "pause"
           },
           "to": [
             {
-              "key_code": "grave_accent_and_tilde",
+              "key_code": "spacebar",
               "modifiers": [
-                "left_option"
+                "left_control"
               ]
             }
           ],
@@ -2989,6 +3095,15 @@
                 "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "from": {
@@ -3164,6 +3279,15 @@
                 "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
             }
           ],
           "from": {
@@ -3193,10 +3317,7 @@
             "key_code": "open_bracket",
             "modifiers": {
               "mandatory": [
-                "right_option"
-              ],
-              "optional": [
-                "left_option"
+                "option"
               ]
             }
           },
@@ -3244,6 +3365,81 @@
                 "^com\\.utmapp\\.UTM$",
                 "^com\\.devolutions\\.remotedesktopmanager"
               ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "5",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc$",
+                "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                "^net\\.sf\\.cord$",
+                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                "^com\\.itap-mobile\\.qmote$",
+                "^com\\.nulana\\.remotixmac$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                "^com\\.philandro\\.anydesk$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.2X\\.Client\\.Mac$",
+                "^com\\.vmware\\.fusion$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.vmware\\.view$",
+                "^com\\.parallels\\.desktop$",
+                "^com\\.parallels\\.vm$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.vmware\\.proxyApp\\.",
+                "^com\\.parallels\\.winapp\\.",
+                "^org\\.macports\\.X11$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyperterm$",
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^tv\\.parsec\\.www$",
+                "^com\\.utmapp\\.UTM$",
+                "^com\\.devolutions\\.remotedesktopmanager"
+              ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": true,
+                  "description": "Built-in MacBook keyboard only"
+                }
+              ]
             }
           ]
         }
@@ -3258,10 +3454,7 @@
             "key_code": "close_bracket",
             "modifiers": {
               "mandatory": [
-                "right_option"
-              ],
-              "optional": [
-                "left_option"
+                "option"
               ]
             }
           },
@@ -3309,6 +3502,81 @@
                 "^com\\.utmapp\\.UTM$",
                 "^com\\.devolutions\\.remotedesktopmanager"
               ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "6",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc$",
+                "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                "^net\\.sf\\.cord$",
+                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                "^com\\.itap-mobile\\.qmote$",
+                "^com\\.nulana\\.remotixmac$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                "^com\\.philandro\\.anydesk$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.2X\\.Client\\.Mac$",
+                "^com\\.vmware\\.fusion$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.vmware\\.view$",
+                "^com\\.parallels\\.desktop$",
+                "^com\\.parallels\\.vm$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.vmware\\.proxyApp\\.",
+                "^com\\.parallels\\.winapp\\.",
+                "^org\\.macports\\.X11$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyperterm$",
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^tv\\.parsec\\.www$",
+                "^com\\.utmapp\\.UTM$",
+                "^com\\.devolutions\\.remotedesktopmanager"
+              ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": true,
+                  "description": "Built-in MacBook keyboard only"
+                }
+              ]
             }
           ]
         }
@@ -3323,10 +3591,7 @@
             "key_code": "2",
             "modifiers": {
               "mandatory": [
-                "right_option"
-              ],
-              "optional": [
-                "left_option"
+                "option"
               ]
             }
           },
@@ -3374,6 +3639,81 @@
                 "^com\\.utmapp\\.UTM$",
                 "^com\\.devolutions\\.remotedesktopmanager"
               ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "2",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "g",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc$",
+                "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                "^net\\.sf\\.cord$",
+                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                "^com\\.itap-mobile\\.qmote$",
+                "^com\\.nulana\\.remotixmac$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                "^com\\.philandro\\.anydesk$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.2X\\.Client\\.Mac$",
+                "^com\\.vmware\\.fusion$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.vmware\\.view$",
+                "^com\\.parallels\\.desktop$",
+                "^com\\.parallels\\.vm$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.vmware\\.proxyApp\\.",
+                "^com\\.parallels\\.winapp\\.",
+                "^org\\.macports\\.X11$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyperterm$",
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^tv\\.parsec\\.www$",
+                "^com\\.utmapp\\.UTM$",
+                "^com\\.devolutions\\.remotedesktopmanager"
+              ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": true,
+                  "description": "Built-in MacBook keyboard only"
+                }
+              ]
             }
           ]
         }
@@ -3388,10 +3728,7 @@
             "key_code": "quote",
             "modifiers": {
               "mandatory": [
-                "right_option"
-              ],
-              "optional": [
-                "left_option"
+                "option"
               ]
             }
           },
@@ -3439,6 +3776,81 @@
                 "^com\\.utmapp\\.UTM$",
                 "^com\\.devolutions\\.remotedesktopmanager"
               ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "8",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc$",
+                "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                "^net\\.sf\\.cord$",
+                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                "^com\\.itap-mobile\\.qmote$",
+                "^com\\.nulana\\.remotixmac$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                "^com\\.philandro\\.anydesk$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.2X\\.Client\\.Mac$",
+                "^com\\.vmware\\.fusion$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.vmware\\.view$",
+                "^com\\.parallels\\.desktop$",
+                "^com\\.parallels\\.vm$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.vmware\\.proxyApp\\.",
+                "^com\\.parallels\\.winapp\\.",
+                "^org\\.macports\\.X11$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyperterm$",
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^tv\\.parsec\\.www$",
+                "^com\\.utmapp\\.UTM$",
+                "^com\\.devolutions\\.remotedesktopmanager"
+              ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": true,
+                  "description": "Built-in MacBook keyboard only"
+                }
+              ]
             }
           ]
         }
@@ -3453,10 +3865,7 @@
             "key_code": "non_us_pound",
             "modifiers": {
               "mandatory": [
-                "right_option"
-              ],
-              "optional": [
-                "left_option"
+                "option"
               ]
             }
           },
@@ -3504,6 +3913,81 @@
                 "^com\\.utmapp\\.UTM$",
                 "^com\\.devolutions\\.remotedesktopmanager"
               ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "backslash",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "9",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc$",
+                "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                "^net\\.sf\\.cord$",
+                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                "^com\\.itap-mobile\\.qmote$",
+                "^com\\.nulana\\.remotixmac$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                "^com\\.philandro\\.anydesk$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.2X\\.Client\\.Mac$",
+                "^com\\.vmware\\.fusion$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.vmware\\.view$",
+                "^com\\.parallels\\.desktop$",
+                "^com\\.parallels\\.vm$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.vmware\\.proxyApp\\.",
+                "^com\\.parallels\\.winapp\\.",
+                "^org\\.macports\\.X11$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyperterm$",
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^tv\\.parsec\\.www$",
+                "^com\\.utmapp\\.UTM$",
+                "^com\\.devolutions\\.remotedesktopmanager"
+              ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": true,
+                  "description": "Built-in MacBook keyboard only"
+                }
+              ]
             }
           ]
         }
@@ -3518,10 +4002,7 @@
             "key_code": "non_us_backslash",
             "modifiers": {
               "mandatory": [
-                "right_option"
-              ],
-              "optional": [
-                "left_option"
+                "option"
               ]
             }
           },
@@ -3570,6 +4051,82 @@
                 "^com\\.utmapp\\.UTM$",
                 "^com\\.devolutions\\.remotedesktopmanager"
               ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "grave_accent_and_tilde",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "7",
+            "modifiers": [
+              "option",
+              "shift"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc$",
+                "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                "^net\\.sf\\.cord$",
+                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                "^com\\.itap-mobile\\.qmote$",
+                "^com\\.nulana\\.remotixmac$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                "^com\\.philandro\\.anydesk$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.2X\\.Client\\.Mac$",
+                "^com\\.vmware\\.fusion$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.vmware\\.view$",
+                "^com\\.parallels\\.desktop$",
+                "^com\\.parallels\\.vm$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.vmware\\.proxyApp\\.",
+                "^com\\.parallels\\.winapp\\.",
+                "^org\\.macports\\.X11$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyperterm$",
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^tv\\.parsec\\.www$",
+                "^com\\.utmapp\\.UTM$",
+                "^com\\.devolutions\\.remotedesktopmanager"
+              ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": true,
+                  "description": "Built-in MacBook keyboard only"
+                }
+              ]
             }
           ]
         }
@@ -3584,10 +4141,7 @@
             "key_code": "hyphen",
             "modifiers": {
               "mandatory": [
-                "right_option"
-              ],
-              "optional": [
-                "left_option"
+                "option"
               ]
             }
           },
@@ -3635,6 +4189,81 @@
                 "^com\\.utmapp\\.UTM$",
                 "^com\\.devolutions\\.remotedesktopmanager"
               ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "equal_sign",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc$",
+                "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                "^net\\.sf\\.cord$",
+                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                "^com\\.itap-mobile\\.qmote$",
+                "^com\\.nulana\\.remotixmac$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                "^com\\.philandro\\.anydesk$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.2X\\.Client\\.Mac$",
+                "^com\\.vmware\\.fusion$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.vmware\\.view$",
+                "^com\\.parallels\\.desktop$",
+                "^com\\.parallels\\.vm$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.vmware\\.proxyApp\\.",
+                "^com\\.parallels\\.winapp\\.",
+                "^org\\.macports\\.X11$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyperterm$",
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^tv\\.parsec\\.www$",
+                "^com\\.utmapp\\.UTM$",
+                "^com\\.devolutions\\.remotedesktopmanager"
+              ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": true,
+                  "description": "Built-in MacBook keyboard only"
+                }
+              ]
             }
           ]
         }
@@ -3649,10 +4278,7 @@
             "key_code": "equal_sign",
             "modifiers": {
               "mandatory": [
-                "right_option"
-              ],
-              "optional": [
-                "left_option"
+                "option"
               ]
             }
           },
@@ -3700,6 +4326,81 @@
                 "^com\\.utmapp\\.UTM$",
                 "^com\\.devolutions\\.remotedesktopmanager"
               ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "equal_sign",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "n",
+            "modifiers": [
+              "option"
+            ]
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc$",
+                "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                "^net\\.sf\\.cord$",
+                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                "^com\\.itap-mobile\\.qmote$",
+                "^com\\.nulana\\.remotixmac$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                "^com\\.philandro\\.anydesk$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.2X\\.Client\\.Mac$",
+                "^com\\.vmware\\.fusion$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.vmware\\.view$",
+                "^com\\.parallels\\.desktop$",
+                "^com\\.parallels\\.vm$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.vmware\\.proxyApp\\.",
+                "^com\\.parallels\\.winapp\\.",
+                "^org\\.macports\\.X11$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyperterm$",
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^tv\\.parsec\\.www$",
+                "^com\\.utmapp\\.UTM$",
+                "^com\\.devolutions\\.remotedesktopmanager"
+              ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": true,
+                  "description": "Built-in MacBook keyboard only"
+                }
+              ]
             }
           ]
         }
@@ -3709,6 +4410,17 @@
       "description": "Yabai: Move window to 'keypad_n' space and focus window again",
       "manipulators": [
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ],
           "from": {
             "key_code": "keypad_1",
             "modifiers": {
@@ -3747,6 +4459,17 @@
           "type": "basic"
         },
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ],
           "from": {
             "key_code": "keypad_2",
             "modifiers": {
@@ -3785,6 +4508,17 @@
           "type": "basic"
         },
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ],
           "from": {
             "key_code": "keypad_3",
             "modifiers": {
@@ -3823,6 +4557,17 @@
           "type": "basic"
         },
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ],
           "from": {
             "key_code": "keypad_4",
             "modifiers": {
@@ -3861,6 +4606,17 @@
           "type": "basic"
         },
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ],
           "from": {
             "key_code": "keypad_5",
             "modifiers": {
@@ -3899,6 +4655,17 @@
           "type": "basic"
         },
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ],
           "from": {
             "key_code": "keypad_6",
             "modifiers": {
@@ -3939,9 +4706,20 @@
       ]
     },
     {
-      "description": "Yabai: Workaround for AltTab + Select with Mouse (Alt+Command to fn)",
+      "description": "Workaround for opening emoji menu on non MacOS keyboard (Alt+Command to fn)",
       "manipulators": [
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
+              ]
+            }
+          ],
           "from": {
             "simultaneous": [
               {
@@ -3986,6 +4764,15 @@
               "type": "frontmost_application_if",
               "bundle_identifiers": [
                 "^com.apple.finder"
+              ]
+            },
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_built_in_keyboard": false,
+                  "description": "External keyboard only"
+                }
               ]
             }
           ]
@@ -4075,41 +4862,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "description": "Finder: Change Control-Click to Command-Click",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "pointing_button": "button1",
-            "modifiers": {
-              "mandatory": [
-                "left_control"
-              ]
-            }
-          },
-          "conditions": [
-            {
-              "type": "frontmost_application_if",
-              "bundle_identifiers": [
-                "^com.apple.finder"
-              ]
-            }
-          ],
-          "to": [
-            {
-              "pointing_button": "button1",
-              "modifiers": [
-                "left_command"
-              ]
-            }
-          ],
-          "parameters": {
-            "basic.to_if_alone_timeout_milliseconds": 1000
-          }
         }
       ]
     },

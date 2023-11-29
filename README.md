@@ -12,7 +12,7 @@ Installation
 2.  Clone this repository to your local machine or download the `personal_shortcuts.json` file.
 3.  Open Karabiner-Elements and go to the "Misc" tab.
 4.  Click "Open Karabiner-Elements Configuration Directory" to navigate to your Karabiner-Elements configuration folder.
-5.  Create a new folder called "complex\_modifications" if it doesn't already exist.
+5.  Within the "assets" folder, create a new folder called "complex\_modifications" if it doesn't already exist.
 6.  Move the `personal_shortcuts.json` and `hypershift_launcher.json` file to the "complex\_modifications" folder.
 7.  Open Karabiner-Elements and go to the "Complex Modifications" tab.
 8.  Click on the "Add rule" button and klick on `Enable All` for `Hyper+Shift Application Launcher` and `Personal PC-Style Shortcuts`
