@@ -120,9 +120,12 @@ The configuration automatically excludes the following virtualization and remote
 
 ## Additional Configuration
 
-![image](https://user-images.githubusercontent.com/16536946/228283187-c14c442f-3eb1-41cb-918a-138dca1185c0.png)
+<img width="1363" height="844" alt="image" src="https://github.com/user-attachments/assets/4a5e3e32-760e-4ab8-8127-fc2c2df6c1ee" />
+<img width="1363" height="844" alt="image" src="https://github.com/user-attachments/assets/ce242168-fa16-4512-a6f1-446bb8d7b5e8" />
+<img width="1363" height="844" alt="image" src="https://github.com/user-attachments/assets/45398e18-8d4e-47f4-94aa-d2fa9cbb8375" />
+<img width="1363" height="1300" alt="image" src="https://github.com/user-attachments/assets/9772805e-792d-4939-8730-b5ddab961526" />
+<img width="1098" height="439" alt="image" src="https://github.com/user-attachments/assets/a7bfc67a-ed3a-4076-8429-9fe1600a7a41" />
 
-![image](https://user-images.githubusercontent.com/16536946/229280683-6e6a8343-bdaa-4cb9-a8f3-5dd0370e61c0.png)
 
 ## Contributing
 
