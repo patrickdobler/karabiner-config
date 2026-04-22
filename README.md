@@ -63,7 +63,7 @@ The following are the keybindings provided by this configuration:
 - Paste without formatting `Control+Shift+V` to `Command+Option+Shift+V`
 - Open Launchpad with `Control+Esc`
 - Open Activity Monitor with `Control+Shift+Esc`
-- Open Ghostty with `F15`
+- Open Kaku with `F15`
 - Press `CAPS LOCK` twice to activate, otherwise held down and use as HYPER (`Control+Command+Shift+Option`)
 - Avoid starting sysdiagnose with the built-in macOS shortcut `Control+Command+Shift+Option+,`
 - Avoid starting sysdiagnose with the built-in macOS shortcut `Control+Command+Shift+Option+.`
@@ -83,17 +83,6 @@ The following are the keybindings provided by this configuration:
 - Swiss PC-Style `Command+[']` to `´`
 - Swiss PC-Style `Command+[^]` to `~`
 - Swiss PC-Style `Command+[e]` to `€`
-
-### Yabai Window Tiling Manager
-
-- Rotate/mirror/balance spaces (`HYPER+R` | `HYPER+Z/X` | `HYPER+B`)
-- Toggle float and zoom (`HYPER+T` | `HYPER+G/F`)
-- Warp windows between displays (`HYPER+A/W/S/D`)
-- Resize windows (`HYPER+J/I/K/L`)
-- Stack navigation | windows focus (`HYPER+Tab` | `HYPER+E/Q`)
-- Layout configuration stack|bsp|float (`HYPER+C` | `HYPER+P` | `HYPER+N`)
-- Switch to desktop layout (`HYPER+M`)
-- Restart service (`HYPER+Y`)
 
 ### Browser-Specific Features
 
