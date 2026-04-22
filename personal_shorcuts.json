@@ -54,7 +54,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -93,7 +94,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -140,7 +142,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -187,7 +190,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -235,7 +239,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -283,7 +288,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -329,7 +335,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -375,7 +382,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -410,7 +418,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -445,7 +454,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -480,7 +490,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -520,7 +531,11 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos",
+                "^com\\.apple\\.Terminal",
+                "^com\\.mitchellh\\.ghostty",
+                "^fun\\.tw93\\.kaku"
               ],
               "type": "frontmost_application_unless"
             }
@@ -552,7 +567,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -584,7 +600,10 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos",
+                "^com\\.mitchellh\\.ghostty",
+                "^fun\\.tw93\\.kaku"
               ],
               "type": "frontmost_application_unless"
             }
@@ -621,7 +640,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -658,7 +678,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -696,7 +717,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -733,7 +755,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -770,7 +793,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -1287,7 +1311,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1322,7 +1347,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1362,7 +1388,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1394,7 +1421,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1431,7 +1459,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1463,7 +1492,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1500,7 +1530,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1537,7 +1568,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1574,7 +1606,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1611,7 +1644,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1648,7 +1682,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1861,7 +1896,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1901,7 +1937,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1936,7 +1973,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             }
@@ -1960,7 +1998,7 @@
       ]
     },
     {
-      "description": "Open iTerm2 with F15",
+      "description": "Open Kaku with F15",
       "manipulators": [
         {
           "conditions": [
@@ -1971,7 +2009,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -1990,7 +2029,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'ghostty.app'"
+              "shell_command": "open -na 'kaku.app'"
             }
           ],
           "type": "basic"
@@ -2127,7 +2166,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2171,7 +2211,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2210,7 +2251,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2254,7 +2296,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2293,7 +2336,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2337,7 +2381,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2376,7 +2421,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2420,7 +2466,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2459,7 +2506,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2503,7 +2551,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2542,7 +2591,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2586,7 +2636,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2625,7 +2676,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2669,7 +2721,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2708,7 +2761,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2752,7 +2806,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2792,7 +2847,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2837,7 +2893,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2876,7 +2933,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2920,7 +2978,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2959,7 +3018,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -3003,7 +3063,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -3042,7 +3103,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
             },
@@ -3211,7 +3273,8 @@
           "conditions": [
             {
               "bundle_identifiers": [
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_if"
             }
@@ -3235,7 +3298,8 @@
           "conditions": [
             {
               "bundle_identifiers": [
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_if"
             }
@@ -3306,552 +3370,6 @@
             }
           ],
           "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Yabai: rotate/mirror/balance spaces (HYPER+R | HYPER+Y/X | Hyper+B)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "r",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m space --rotate 270"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "z",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m space --mirror y-axis"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "x",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m space --mirror x-axis"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "b",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m space --balance"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Yabai: toggle float and zoom (HYPER+T | HYPER+G/F)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "t",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --toggle float --grid 4:4:1:1:2:2 --toggle border"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "g",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --toggle zoom-parent"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "f",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --toggle zoom-fullscreen"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Yabai: warp windows between displays (HYPER+A/W/S/D)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "w",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --warp north || (/opt/homebrew/bin/yabai -m window --display north; /opt/homebrew/bin/yabai -m display --focus north)"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "a",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --warp west || (/opt/homebrew/bin/yabai -m window --display west; /opt/homebrew/bin/yabai -m display --focus west)"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "s",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --warp south || (/opt/homebrew/bin/yabai -m window --display south; /opt/homebrew/bin/yabai -m display --focus south)"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "d",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --warp east || (/opt/homebrew/bin/yabai -m window --display east; /opt/homebrew/bin/yabai -m display --focus east)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Yabai: resize windows (HYPER+J/I/K/L)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "i",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --resize top:0:-50; /opt/homebrew/bin/yabai -m window --resize bottom:0:-50"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "j",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --resize left:-50:0; /opt/homebrew/bin/yabai -m window --resize right:-50:0"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "k",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --resize bottom:0:50; /opt/homebrew/bin/yabai -m window --resize top:0:50"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "l",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --resize right:50:0; /opt/homebrew/bin/yabai -m window --resize left:50:0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Yabai: stack navigation | windows focus (HYPE+Tab | HYPER+E/Q)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "tab",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --focus stack.next || /opt/homebrew/bin/yabai -m window --focus stack.first"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "e",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --focus next || /opt/homebrew/bin/yabai -m window --focus first"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "q",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m window --focus prev || /opt/homebrew/bin/yabai -m window --focus last"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Yabai: layout configuration stack|bsp|float (HYPER+C | HYPER+P | HYPER+N)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "c",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m space --layout stack"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "p",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m config layout bsp"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "n",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m config layout float"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Yabai: switch to desktop layout (HYPER+M)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "m",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai -m config layout bsp && /opt/homebrew/bin/yabai -m space 4 --layout float && /opt/homebrew/bin/yabai -m rule --apply app='^(Firefox|Safari|Comet)$' space=1 && /opt/homebrew/bin/yabai -m rule --apply app='^TradingView$' space=2 && /opt/homebrew/bin/yabai -m rule --apply app='^(Discord|Proton Mail)$' space=4 && /opt/homebrew/bin/yabai -m rule --apply app='WhatsApp$' space=4 && open -g 'rectangle-pro://execute-layout?name=left'"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Yabai: restart service (HYPER+Z)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "y",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_shift",
-                "left_option",
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "/opt/homebrew/bin/yabai --restart-service"
-            }
-          ]
         }
       ]
     }
