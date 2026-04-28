@@ -2211,8 +2211,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2251,8 +2250,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2296,8 +2294,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2336,8 +2333,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2381,8 +2377,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2421,8 +2416,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2466,8 +2460,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2506,8 +2499,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2551,8 +2543,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2591,8 +2582,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2636,8 +2626,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2676,8 +2665,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2721,8 +2709,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2761,8 +2748,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2806,8 +2792,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2847,8 +2832,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2893,8 +2877,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2933,8 +2916,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -2978,8 +2960,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -3018,8 +2999,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -3063,8 +3043,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
@@ -3103,8 +3082,7 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager",
-                "^com\\.microsoft\\.rdc\\.macos"
+                "^com\\.devolutions\\.remotedesktopmanager"
               ],
               "type": "frontmost_application_unless"
             },
