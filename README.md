@@ -95,10 +95,11 @@ The following are the keybindings provided by this configuration:
 - Move one folder back in Finder with `Mouse Button 4`
 - Move one folder forward in Finder with `Mouse Button 5`
 
-### Remote Desktop Manager (RDM)
+### Remote Desktop Apps
 
 - Move one folder forward in Explorer with `Mouse Button 6`
 - Move one folder back in Explorer with `Mouse Button 4`
+- Windows App (RDP) swaps `Command` and `Option` so Windows-style shortcuts and Swiss special characters use the expected Mac key positions.
 
 ### Compatibility
 
@@ -106,6 +107,7 @@ The configuration automatically excludes the following virtualization and remote
 - TeamViewer
 - Parallels Desktop
 - Remote Desktop Manager
+- Windows App (RDP)
 
 ## Additional Configuration
 
