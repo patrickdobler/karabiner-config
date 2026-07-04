@@ -13,7 +13,8 @@
                 "^com\\.parallels\\.vm$",
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
-                "^com\\.devolutions\\.remotedesktopmanager"
+                "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123"
               ],
               "type": "frontmost_application_unless"
             },
@@ -33,9 +34,7 @@
           "to": [
             {
               "key_code": "a",
-              "modifiers": [
-                "left_control"
-              ]
+              "modifiers": ["left_control"]
             }
           ],
           "type": "basic"
@@ -55,6 +54,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -95,6 +95,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -112,18 +113,13 @@
           "from": {
             "key_code": "home",
             "modifiers": {
-              "mandatory": [
-                "shift"
-              ]
+              "mandatory": ["shift"]
             }
           },
           "to": [
             {
               "key_code": "a",
-              "modifiers": [
-                "left_control",
-                "left_shift"
-              ]
+              "modifiers": ["left_control", "left_shift"]
             }
           ],
           "type": "basic"
@@ -143,6 +139,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -160,18 +157,13 @@
           "from": {
             "key_code": "end",
             "modifiers": {
-              "mandatory": [
-                "shift"
-              ]
+              "mandatory": ["shift"]
             }
           },
           "to": [
             {
               "key_code": "e",
-              "modifiers": [
-                "left_control",
-                "left_shift"
-              ]
+              "modifiers": ["left_control", "left_shift"]
             }
           ],
           "type": "basic"
@@ -191,6 +183,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -208,19 +201,13 @@
           "from": {
             "key_code": "home",
             "modifiers": {
-              "mandatory": [
-                "shift",
-                "control"
-              ]
+              "mandatory": ["shift", "control"]
             }
           },
           "to": [
             {
               "key_code": "up_arrow",
-              "modifiers": [
-                "command",
-                "left_shift"
-              ]
+              "modifiers": ["command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -240,6 +227,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -257,19 +245,13 @@
           "from": {
             "key_code": "end",
             "modifiers": {
-              "mandatory": [
-                "shift",
-                "control"
-              ]
+              "mandatory": ["shift", "control"]
             }
           },
           "to": [
             {
               "key_code": "down_arrow",
-              "modifiers": [
-                "command",
-                "left_shift"
-              ]
+              "modifiers": ["command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -289,6 +271,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -306,17 +289,13 @@
           "from": {
             "key_code": "home",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "up_arrow",
-              "modifiers": [
-                "command"
-              ]
+              "modifiers": ["command"]
             }
           ],
           "type": "basic"
@@ -336,6 +315,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -353,17 +333,13 @@
           "from": {
             "key_code": "end",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "down_arrow",
-              "modifiers": [
-                "command"
-              ]
+              "modifiers": ["command"]
             }
           ],
           "type": "basic"
@@ -383,6 +359,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -391,20 +368,14 @@
           "from": {
             "key_code": "left_arrow",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["shift"]
             }
           },
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": [
-                "left_option"
-              ]
+              "modifiers": ["left_option"]
             }
           ],
           "type": "basic"
@@ -419,6 +390,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -427,20 +399,14 @@
           "from": {
             "key_code": "right_arrow",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["shift"]
             }
           },
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": [
-                "left_option"
-              ]
+              "modifiers": ["left_option"]
             }
           ],
           "type": "basic"
@@ -455,6 +421,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -463,20 +430,14 @@
           "from": {
             "key_code": "up_arrow",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["shift"]
             }
           },
           "to": [
             {
               "key_code": "up_arrow",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -491,6 +452,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -499,20 +461,14 @@
           "from": {
             "key_code": "down_arrow",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["shift"]
             }
           },
           "to": [
             {
               "key_code": "down_arrow",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -532,6 +488,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos",
                 "^com\\.apple\\.Terminal",
                 "^com\\.mitchellh\\.ghostty",
@@ -543,17 +500,13 @@
           "from": {
             "key_code": "c",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "c",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -568,6 +521,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -576,17 +530,13 @@
           "from": {
             "key_code": "v",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "v",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -601,6 +551,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos",
                 "^com\\.mitchellh\\.ghostty",
                 "^fun\\.tw93\\.kaku"
@@ -611,17 +562,13 @@
           "from": {
             "key_code": "x",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "x",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -641,6 +588,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -649,17 +597,13 @@
           "from": {
             "key_code": "y",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "y",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -679,6 +623,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -687,18 +632,13 @@
           "from": {
             "key_code": "z",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "y",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -718,6 +658,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -726,17 +667,13 @@
           "from": {
             "key_code": "a",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "a",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -756,6 +693,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -764,17 +702,13 @@
           "from": {
             "key_code": "s",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "s",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -794,6 +728,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -811,17 +746,13 @@
           "from": {
             "key_code": "f4",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": [
             {
               "key_code": "q",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -856,20 +787,14 @@
           "from": {
             "key_code": "keypad_hyphen",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
+              "mandatory": ["control"],
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "keypad_hyphen",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -899,20 +824,14 @@
           "from": {
             "key_code": "keypad_plus",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
+              "mandatory": ["control"],
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "keypad_plus",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -933,17 +852,13 @@
           "from": {
             "key_code": "0",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "0",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -973,20 +888,14 @@
           "from": {
             "key_code": "keypad_0",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
+              "mandatory": ["control"],
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "keypad_0",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -994,9 +903,7 @@
         {
           "conditions": [
             {
-              "bundle_identifiers": [
-                "^com\\.apple\\.Safari$"
-              ],
+              "bundle_identifiers": ["^com\\.apple\\.Safari$"],
               "type": "frontmost_application_if"
             },
             {
@@ -1012,21 +919,14 @@
           "from": {
             "key_code": "keypad_plus",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
+              "mandatory": ["control"],
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "close_bracket",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1049,18 +949,13 @@
           "from": {
             "key_code": "1",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "1",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1078,18 +973,13 @@
           "from": {
             "key_code": "2",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "2",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1107,18 +997,13 @@
           "from": {
             "key_code": "3",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "3",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1136,18 +1021,13 @@
           "from": {
             "key_code": "4",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "4",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1165,18 +1045,13 @@
           "from": {
             "key_code": "5",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "5",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1194,18 +1069,13 @@
           "from": {
             "key_code": "6",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "6",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1223,18 +1093,13 @@
           "from": {
             "key_code": "7",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "7",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1252,18 +1117,13 @@
           "from": {
             "key_code": "8",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "8",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1281,18 +1141,13 @@
           "from": {
             "key_code": "9",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "9",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1312,6 +1167,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1320,20 +1176,14 @@
           "from": {
             "key_code": "delete_or_backspace",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
+              "mandatory": ["control"],
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "delete_or_backspace",
-              "modifiers": [
-                "left_option"
-              ]
+              "modifiers": ["left_option"]
             }
           ],
           "type": "basic"
@@ -1348,6 +1198,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1356,20 +1207,14 @@
           "from": {
             "key_code": "delete_forward",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
+              "mandatory": ["control"],
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "delete_forward",
-              "modifiers": [
-                "left_option"
-              ]
+              "modifiers": ["left_option"]
             }
           ],
           "type": "basic"
@@ -1389,6 +1234,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1397,17 +1243,13 @@
           "from": {
             "key_code": "f",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "f",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -1422,6 +1264,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1430,17 +1273,13 @@
           "from": {
             "key_code": "g",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "g",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -1460,6 +1299,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1468,17 +1308,13 @@
           "from": {
             "key_code": "r",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "r",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -1493,6 +1329,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1501,17 +1338,13 @@
           "from": {
             "key_code": "f5",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "r",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -1531,6 +1364,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1539,17 +1373,13 @@
           "from": {
             "key_code": "n",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "n",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -1569,6 +1399,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1577,17 +1408,13 @@
           "from": {
             "key_code": "w",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "w",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -1607,6 +1434,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1615,17 +1443,13 @@
           "from": {
             "key_code": "t",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "t",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -1645,6 +1469,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1653,17 +1478,13 @@
           "from": {
             "key_code": "b",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "b",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -1683,6 +1504,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1691,17 +1513,13 @@
           "from": {
             "key_code": "i",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "i",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -1727,17 +1545,13 @@
           "from": {
             "key_code": "l",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "l",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -1763,19 +1577,13 @@
           "from": {
             "key_code": "t",
             "modifiers": {
-              "mandatory": [
-                "control",
-                "shift"
-              ]
+              "mandatory": ["control", "shift"]
             }
           },
           "to": [
             {
               "key_code": "t",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1798,19 +1606,13 @@
           "from": {
             "key_code": "p",
             "modifiers": {
-              "mandatory": [
-                "control",
-                "shift"
-              ]
+              "mandatory": ["control", "shift"]
             }
           },
           "to": [
             {
               "key_code": "p",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1829,19 +1631,13 @@
           "from": {
             "key_code": "n",
             "modifiers": {
-              "mandatory": [
-                "control",
-                "shift"
-              ]
+              "mandatory": ["control", "shift"]
             }
           },
           "to": [
             {
               "key_code": "n",
-              "modifiers": [
-                "left_command",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1866,18 +1662,13 @@
           "from": {
             "key_code": "l",
             "modifiers": {
-              "mandatory": [
-                "option"
-              ]
+              "mandatory": ["option"]
             }
           },
           "to": [
             {
               "key_code": "q",
-              "modifiers": [
-                "left_command",
-                "left_control"
-              ]
+              "modifiers": ["left_command", "left_control"]
             }
           ],
           "type": "basic"
@@ -1897,6 +1688,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1905,20 +1697,13 @@
           "from": {
             "key_code": "v",
             "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_shift"
-              ]
+              "mandatory": ["left_control", "left_shift"]
             }
           },
           "to": [
             {
               "key_code": "v",
-              "modifiers": [
-                "left_command",
-                "left_option",
-                "left_shift"
-              ]
+              "modifiers": ["left_command", "left_option", "left_shift"]
             }
           ],
           "type": "basic"
@@ -1938,6 +1723,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1946,9 +1732,7 @@
           "from": {
             "key_code": "escape",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
@@ -1974,6 +1758,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -1982,10 +1767,7 @@
           "from": {
             "key_code": "escape",
             "modifiers": {
-              "mandatory": [
-                "control",
-                "shift"
-              ]
+              "mandatory": ["control", "shift"]
             }
           },
           "to": [
@@ -2010,6 +1792,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2050,9 +1833,7 @@
           "from": {
             "key_code": "caps_lock",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -2066,9 +1847,7 @@
           "from": {
             "key_code": "caps_lock",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "parameters": {
@@ -2103,11 +1882,7 @@
           "to_if_held_down": [
             {
               "key_code": "right_shift",
-              "modifiers": [
-                "left_command",
-                "left_control",
-                "left_option"
-              ]
+              "modifiers": ["left_command", "left_control", "left_option"]
             }
           ],
           "type": "basic"
@@ -2121,12 +1896,7 @@
           "from": {
             "key_code": "comma",
             "modifiers": {
-              "mandatory": [
-                "command",
-                "shift",
-                "option",
-                "control"
-              ]
+              "mandatory": ["command", "shift", "option", "control"]
             }
           },
           "to": [],
@@ -2141,12 +1911,7 @@
           "from": {
             "key_code": "period",
             "modifiers": {
-              "mandatory": [
-                "command",
-                "shift",
-                "option",
-                "control"
-              ]
+              "mandatory": ["command", "shift", "option", "control"]
             }
           },
           "to": [],
@@ -2167,6 +1932,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2185,9 +1951,7 @@
             "key_code": "keypad_enter",
             "modifiers": {
               "mandatory": [],
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -2200,7 +1964,7 @@
       ]
     },
     {
-      "description": "Windows App (RDP): Swap Command and Option",
+      "description": "Windows App (Microsoft): Swap Command and Option",
       "manipulators": [
         {
           "conditions": [
@@ -2215,9 +1979,7 @@
           "from": {
             "key_code": "left_command",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -2240,9 +2002,7 @@
           "from": {
             "key_code": "left_option",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -2265,9 +2025,7 @@
           "from": {
             "key_code": "right_command",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -2290,9 +2048,7 @@
           "from": {
             "key_code": "right_option",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -2317,6 +2073,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2334,16 +2091,12 @@
           "from": {
             "key_code": "open_bracket",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "5",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         },
@@ -2357,6 +2110,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2374,16 +2128,12 @@
           "from": {
             "key_code": "open_bracket",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "5",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         }
@@ -2402,6 +2152,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2419,16 +2170,12 @@
           "from": {
             "key_code": "3",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "3",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         },
@@ -2442,6 +2189,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2459,16 +2207,12 @@
           "from": {
             "key_code": "3",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "3",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         }
@@ -2487,6 +2231,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2504,16 +2249,12 @@
           "from": {
             "key_code": "7",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "7",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         },
@@ -2527,6 +2268,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2544,16 +2286,12 @@
           "from": {
             "key_code": "7",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "7",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         }
@@ -2572,6 +2310,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2589,16 +2328,12 @@
           "from": {
             "key_code": "close_bracket",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "6",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         },
@@ -2612,6 +2347,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2629,16 +2365,12 @@
           "from": {
             "key_code": "close_bracket",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "6",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         }
@@ -2657,6 +2389,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2674,16 +2407,12 @@
           "from": {
             "key_code": "2",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "g",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         },
@@ -2697,6 +2426,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2714,16 +2444,12 @@
           "from": {
             "key_code": "2",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "g",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         }
@@ -2742,6 +2468,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2759,16 +2486,12 @@
           "from": {
             "key_code": "quote",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "8",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         },
@@ -2782,6 +2505,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2799,16 +2523,12 @@
           "from": {
             "key_code": "quote",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "8",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         }
@@ -2827,6 +2547,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2844,16 +2565,12 @@
           "from": {
             "key_code": "non_us_pound",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "9",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         },
@@ -2867,6 +2584,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2884,16 +2602,12 @@
           "from": {
             "key_code": "backslash",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "9",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         }
@@ -2912,6 +2626,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2929,17 +2644,12 @@
           "from": {
             "key_code": "non_us_backslash",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "7",
-            "modifiers": [
-              "option",
-              "shift"
-            ]
+            "modifiers": ["option", "shift"]
           },
           "type": "basic"
         },
@@ -2953,6 +2663,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -2970,17 +2681,12 @@
           "from": {
             "key_code": "grave_accent_and_tilde",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "7",
-            "modifiers": [
-              "option",
-              "shift"
-            ]
+            "modifiers": ["option", "shift"]
           },
           "type": "basic"
         }
@@ -2999,6 +2705,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -3016,16 +2723,12 @@
           "from": {
             "key_code": "hyphen",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "equal_sign",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         },
@@ -3039,6 +2742,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -3056,16 +2760,12 @@
           "from": {
             "key_code": "hyphen",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "equal_sign",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         }
@@ -3084,6 +2784,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -3101,16 +2802,12 @@
           "from": {
             "key_code": "equal_sign",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "n",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         },
@@ -3124,6 +2821,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -3141,16 +2839,12 @@
           "from": {
             "key_code": "equal_sign",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "n",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         }
@@ -3169,6 +2863,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -3186,16 +2881,12 @@
           "from": {
             "key_code": "e",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "e",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         },
@@ -3209,6 +2900,7 @@
                 "^com\\.parallels\\.desktop\\.console$",
                 "^com\\.parallels\\.winapp\\.",
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_unless"
@@ -3226,16 +2918,12 @@
           "from": {
             "key_code": "e",
             "modifiers": {
-              "mandatory": [
-                "command"
-              ]
+              "mandatory": ["command"]
             }
           },
           "to": {
             "key_code": "e",
-            "modifiers": [
-              "option"
-            ]
+            "modifiers": ["option"]
           },
           "type": "basic"
         }
@@ -3258,9 +2946,7 @@
           ],
           "from": {
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             },
             "simultaneous": [
               {
@@ -3290,9 +2976,7 @@
         {
           "conditions": [
             {
-              "bundle_identifiers": [
-                "^com.apple.finder"
-              ],
+              "bundle_identifiers": ["^com.apple.finder"],
               "type": "frontmost_application_if"
             },
             {
@@ -3323,9 +3007,7 @@
         {
           "conditions": [
             {
-              "bundle_identifiers": [
-                "^com\\.apple\\.finder$"
-              ],
+              "bundle_identifiers": ["^com\\.apple\\.finder$"],
               "type": "frontmost_application_if"
             }
           ],
@@ -3335,9 +3017,7 @@
           "to": [
             {
               "key_code": "semicolon",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -3350,9 +3030,7 @@
         {
           "conditions": [
             {
-              "bundle_identifiers": [
-                "^com\\.apple\\.finder$"
-              ],
+              "bundle_identifiers": ["^com\\.apple\\.finder$"],
               "type": "frontmost_application_if"
             }
           ],
@@ -3362,9 +3040,7 @@
           "to": [
             {
               "key_code": "quote",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -3372,13 +3048,14 @@
       ]
     },
     {
-      "description": "RDM: Move one folder forward in Explorer with Mouse Button 5",
+      "description": "Remote Desktop: Move one folder forward in Explorer with Mouse Button 6",
       "manipulators": [
         {
           "conditions": [
             {
               "bundle_identifiers": [
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_if"
@@ -3397,13 +3074,14 @@
       ]
     },
     {
-      "description": "RDM: Move one folder back in Explorer with Mouse Button 4",
+      "description": "Remote Desktop: Move one folder back in Explorer with Mouse Button 4",
       "manipulators": [
         {
           "conditions": [
             {
               "bundle_identifiers": [
                 "^com\\.devolutions\\.remotedesktopmanager",
+                "^ch\\.asd123\\.rdp123",
                 "^com\\.microsoft\\.rdc\\.macos"
               ],
               "type": "frontmost_application_if"
@@ -3440,9 +3118,7 @@
           "to": [
             {
               "key_code": "q",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -3468,10 +3144,7 @@
           "to": [
             {
               "key_code": "1",
-              "modifiers": [
-                "left_option",
-                "left_control"
-              ]
+              "modifiers": ["left_option", "left_control"]
             }
           ],
           "type": "basic"

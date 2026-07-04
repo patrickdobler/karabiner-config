@@ -9,16 +9,22 @@ This repository contains a custom configuration file for Karabiner-Elements, a p
 ## Installation
 
 1. Download and install Karabiner-Elements from [here](https://karabiner-elements.pqrs.org/).
-2. Clone this repository to your local machine or download the `personal_shortcuts.json` file.
+2. Clone this repository or download the configuration file you want to use:
+   - `personal_shortcuts.json` for the complete personal PC-style configuration.
+   - `rdp123_shortcuts.json` for every complex modification from the personal configuration that references RDP123.
 3. Open Karabiner-Elements and go to the "Misc" tab.
 4. Click "Open Karabiner-Elements Configuration Directory" to navigate to your Karabiner-Elements configuration folder.
 5. Within the "assets" folder, create a new folder called "complex_modifications" if it doesn't already exist.
-6. Move the `personal_shortcuts.json` file to the "complex_modifications" folder.
+6. Move the selected JSON file or files to the "complex_modifications" folder.
 7. Open Karabiner-Elements and go to the "Complex Modifications" tab.
-8. Click on the "Add rule" button and click on `Enable All` for `Personal PC-Style Shortcuts`
+8. Click "Add rule" and enable the rules you want:
+   - Use `Enable All` for `Personal PC-Style Shortcuts`.
+   - Use `Enable All` or select individual rules under `RDP123 Complex Modifications`.
 9. Reload Karabiner-Elements to apply the new configuration.
 
 Now you should be able to use the new keybindings on your Mac. If you need to modify or add new keybindings, you can edit the `personal_shortcuts.json` file and reload Karabiner-Elements to apply the changes.
+
+The optional `rdp123_shortcuts.json` file contains the related rules for [patrickdobler/RDP123](https://github.com/patrickdobler/RDP123).
 
 ## Keybindings
 
@@ -99,7 +105,7 @@ The following are the keybindings provided by this configuration:
 
 - Move one folder forward in Explorer with `Mouse Button 6`
 - Move one folder back in Explorer with `Mouse Button 4`
-- Windows App (RDP) swaps `Command` and `Option` so Windows-style shortcuts and Swiss special characters use the expected Mac key positions.
+- Windows App by Microsoft swaps `Command` and `Option` so Windows-style shortcuts and Swiss special characters use the expected Mac key positions.
 
 ### Compatibility
 
@@ -108,6 +114,7 @@ The configuration automatically excludes the following virtualization and remote
 - Parallels Desktop
 - Remote Desktop Manager
 - Windows App (RDP)
+- RDP123 (`ch.asd123.rdp123`)
 
 ## Additional Configuration
 
