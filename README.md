@@ -24,7 +24,7 @@ This repository contains a custom configuration file for Karabiner-Elements, a p
 
 Now you should be able to use the new keybindings on your Mac. If you need to modify or add new keybindings, you can edit the `personal_shortcuts.json` file and reload Karabiner-Elements to apply the changes.
 
-The optional `rdp123_shortcuts.json` file contains the related rules for [patrickdobler/RDP123](https://github.com/patrickdobler/RDP123).
+The optional `rdp123_shortcuts.json` file contains the related rules for [asd123ch/rdp123](https://github.com/asd123ch/rdp123).
 
 ## Keybindings
 
