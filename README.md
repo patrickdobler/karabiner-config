@@ -105,7 +105,7 @@ The following are the keybindings provided by this configuration:
 
 - Move one folder forward in Explorer with `Mouse Button 6`
 - Move one folder back in Explorer with `Mouse Button 4`
-- Windows App by Microsoft swaps `Command` and `Option` so Windows-style shortcuts and Swiss special characters use the expected Mac key positions.
+- Windows App by Microsoft swaps `Command` and `Option`; RDP123 maps right `Command` to right `Option` and swaps the `§`/`<` keys.
 
 ### Compatibility
 
